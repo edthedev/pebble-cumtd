@@ -1,28 +1,32 @@
 {
-  "uuid": "c33d93e2-96a9-408f-b1b7-cd7788ae770e",
-  "shortName": "pebble-cumtd",
-  "longName": "Pebble CUMTD",
-  "companyName": "nathan.handler@gmail.com",
-  "versionCode": 1,
-  "versionLabel": "1.0.0",
-  "watchapp": {
-    "watchface": false
-  },
-  "appKeys": {
-    "stop":     0,
-    "code":     1,
-    "headsign": 2,
-    "esttime":     3
-  },
-  "resources": {
-    "media": [
-      {
-        "menuIcon": true,
-        "type": "png",
-        "name": "IMAGE_MENU_ICON",
-        "file": "images/menu_icon.png"
-      }
-    ]
-  },
-  "capabilities": [ "location" ]
+    "appKeys": {
+        "code": 1,
+        "esttime": 3,
+        "headsign": 2,
+        "stop": 0
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "nathan.handler@gmail.com",
+    "longName": "Pebble CUMTD",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "pebble-cumtd",
+    "uuid": "c33d93e2-96a9-408f-b1b7-cd7788ae770e",
+    "versionCode": 1,
+    "versionLabel": "1.1",
+    "watchapp": {
+        "watchface": false
+    }
 }
